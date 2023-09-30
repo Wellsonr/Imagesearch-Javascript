@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Apps</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#" style="text-decoration: none; color:#333;"><h1>Image Search App</h1></a>
+    <form action="">
+        <input type="text" id="search-input" placeholder="Search for images">
+        <button id="search-button">Search</button>
+    </form>
+    <div id="error-message"></div>
+    <div class="search-results" id="search-results">
+        <div class="search-result">
+            <img src="https://source.unsplash.com/random/?city,night">
+            <a href="#">city</a>
+        </div> 
+        <div class="search-result">
+            <img src="https://source.unsplash.com/random/?fruit">
+            <a href="#">fruit</a>
+        </div> 
+        <div class="search-result">
+            <img src="https://source.unsplash.com/random/?weather">
+            <a href="#">weather</a>
+        </div>
+        <div class="search-result">
+            <img src="https://source.unsplash.com/random/?football">
+            <a href="#">football</a>
+        </div> 
+        <div class="search-result">
+            <img src="https://source.unsplash.com/random/?home">
+            <a href="#">home</a>
+        </div> 
+        <div class="search-result">
+            <img src="https://source.unsplash.com/random/?family">
+            <a href="#">family</a>
+        </div>
+    </div>
+    <!-- target = "_blank" = in href this mean, when we clicked it open a new tab -->
+    <button id="show-more-button">Show More</button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
